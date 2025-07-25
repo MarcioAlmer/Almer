@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Site Incrível</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            background: #007BFF;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Um site simples e responsivo feito com HTML e CSS.</p>
+    </section>
+
+    <div class="container">
+        <section class="section" id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                Somos uma equipe apaixonada por tecnologia e inovação. Nosso objetivo é criar soluções simples e eficientes para facilitar o seu dia a dia.
+            </p>
+        </section>
+
+        <section class="section" id="contato">
+            <h2>Contato</h2>
+            <p>
+                Entre em contato conosco pelo e-mail: 
+                <a href="mailto:contato@meusite.com">contato@meusite.com</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
